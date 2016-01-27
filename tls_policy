@@ -247,3 +247,4 @@ bundeswehr.org									secure match=.bwehr.de
 .debian.org										secure match=.debian.org
 .torproject.org									encrypt
 heise.de										secure match=.heise.de
+sudile.de										fingerprint match=FA:88:0B:BF:2D:11:3A:FC:78:09:99:D6:1D:CE:C5:38:17:E8:41:04:6F:E2:FE:1A:25:77:EE:9F:FA:7D:2E:03
