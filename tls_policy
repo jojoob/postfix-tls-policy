@@ -202,7 +202,7 @@ hs-hannover.de									secure match=.fh-hannover.de
 #uos.de											secure match=.uni-osnabrueck.de
 #uni-osnabrueck.de								secure match=.uni-osnabrueck.de
 .tu-clausthal.de								secure match=.mx.srv.dfn.de:.tu-clausthal.de
-.fh-campuswien.ac.at							secure match=stud-fhcampuswien-ac-at01i.mail.
+.fh-campuswien.ac.at							secure match=.mail.protection.outlook.com
 # states of germany
 # .bayern.de: mx has selfsigned cert
 .bayern.de										encrypt
