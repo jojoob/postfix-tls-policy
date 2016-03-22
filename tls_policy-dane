@@ -58,17 +58,18 @@ aol.nl											secure match=mx.aol.com:.mx.aol.com
 aol.pl											secure match=mx.aol.com:.mx.aol.com
 aol.se											secure match=mx.aol.com:.mx.aol.com
 aol.tw											secure match=mx.aol.com:.mx.aol.com
-arcor.de										secure match=.arcor.de
+arcor.de										encrypt
 gmail.com										secure match=.google.com
 googlegroups.com								secure match=.google.com
 googlemail.com									secure match=.google.com
 google.com										secure match=.google.com
 icloud.com										secure match=.mail.icloud.com
-kabelmail.de									secure match=.xworks.net
+kabelmail.de									dane-only
 mac.com											secure match=.mail.icloud.com
 mail.de											dane-only
 mailbox.org										dane-only
 me.com											secure match=.mail.icloud.com
+orange.fr										secure match=.orange.fr
 posteo.de										dane-only
 hotmail.at										secure match=.hotmail.com:.outlook.com
 hotmail.be										secure match=.hotmail.com:.outlook.com
@@ -204,12 +205,14 @@ hs-hannover.de									secure match=.fh-hannover.de
 .tu-clausthal.de								secure match=.mx.srv.dfn.de:.tu-clausthal.de
 # states of germany
 .bayern.de										dane-only
-.berlin.de										secure match=.daybyday.de
-.hessen.de										secure match=.hessen.de
+.berlin.de										encrypt
+.hessen.de										encrypt
 .niedersachsen.de								secure match=.niedersachsen.de
 # banks
 commerzbank.com									secure match=.commerzbank.com
 postbank.de										secure match=.postbank.de
+paypal.de										secure match=.paypalcorp.com
+paypal.com										secure match=.paypalcorp.com
 # insurances
 .aok.de											encrypt
 barmer-gek.de									secure match=.t-systems.com
@@ -226,7 +229,6 @@ bmvbs.bund.de									dane-only
 bamf.bund.de									dane-only
 bfdi.bund.de									dane-only
 polizei.bund.de									dane-only
-bmelv.bund.de									dane-only
 bakoev.bund.de									dane-only
 bdbos.bund.de									dane-only
 bverwg.bund.de									dane-only
@@ -244,5 +246,6 @@ bundeswehr.org									secure match=.bwehr.de
 .debian.org										dane-only
 .torproject.org									dane-only
 heise.de										secure match=.heise.de
-#broken DNSSEC-TLSA
-mauricedrummen.nl								may
+reply.github.com								secure match=.github.net
+github.com										secure match=.google.com
+gitlab.com										secure match=.google.com

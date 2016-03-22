@@ -58,7 +58,7 @@ aol.nl											secure match=mx.aol.com:.mx.aol.com
 aol.pl											secure match=mx.aol.com:.mx.aol.com
 aol.se											secure match=mx.aol.com:.mx.aol.com
 aol.tw											secure match=mx.aol.com:.mx.aol.com
-arcor.de										secure match=.arcor.de
+arcor.de										encrypt
 gmail.com										secure match=.google.com
 googlegroups.com								secure match=.google.com
 googlemail.com									secure match=.google.com
@@ -69,6 +69,7 @@ mac.com											secure match=.mail.icloud.com
 mail.de											secure match=.mail.de
 mailbox.org										secure match=.mailbox.org
 me.com											secure match=.mail.icloud.com
+orange.fr										secure match=.orange.fr
 posteo.de										secure match=.posteo.de
 hotmail.at										secure match=.hotmail.com:.outlook.com
 hotmail.be										secure match=.hotmail.com:.outlook.com
@@ -206,12 +207,14 @@ hs-hannover.de									secure match=.fh-hannover.de
 # states of germany
 # .bayern.de: mx has selfsigned cert
 .bayern.de										encrypt
-.berlin.de										secure match=.daybyday.de
-.hessen.de										secure match=.hessen.de
+.berlin.de										encrypt
+.hessen.de										encrypt
 .niedersachsen.de								secure match=.niedersachsen.de
 # banks
 commerzbank.com									secure match=.commerzbank.com
 postbank.de										secure match=.postbank.de
+paypal.de										secure match=.paypalcorp.com
+paypal.com										secure match=.paypalcorp.com
 # insurances
 .aok.de											encrypt
 barmer-gek.de									secure match=.t-systems.com
@@ -227,7 +230,6 @@ bmvbs.bund.de									encrypt
 bamf.bund.de									encrypt
 bfdi.bund.de									encrypt
 polizei.bund.de									encrypt
-bmelv.bund.de									encrypt
 bakoev.bund.de									encrypt
 bdbos.bund.de									encrypt
 bverwg.bund.de									encrypt
@@ -247,4 +249,7 @@ bundeswehr.org									secure match=.bwehr.de
 .debian.org										secure match=.debian.org
 .torproject.org									encrypt
 heise.de										secure match=.heise.de
+reply.github.com								secure match=.github.net
+github.com										secure match=.google.com
+gitlab.com										secure match=.google.com
 sudile.de										fingerprint match=FA:88:0B:BF:2D:11:3A:FC:78:09:99:D6:1D:CE:C5:38:17:E8:41:04:6F:E2:FE:1A:25:77:EE:9F:FA:7D:2E:03
