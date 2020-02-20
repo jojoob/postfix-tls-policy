@@ -5,20 +5,20 @@
 # members of email made in germany
 email.de										secure match=.web.de
 freenet.de										secure match=.freenet.de
-gmx.at											secure match=.gmx.net
+gmx.at											dane-only
 gmx.biz											secure match=.gmx.net
-gmx.ch											secure match=.gmx.net
+gmx.ch											dane-only
 gmx.co.uk										secure match=.gmx.net
-gmx.com											secure match=.gmx.net
+gmx.com											dane-only
 gmx.com.my										secure match=.gmx.net
-gmx.de											secure match=.gmx.net
+gmx.de											dane-only
 gmx.es											secure match=.gmx.net
 gmx.eu											secure match=.gmx.net
 gmx.fr											secure match=.gmx.net
 gmx.hk											secure match=.gmx.net
 gmx.info										secure match=.gmx.net
 gmx.it											secure match=.gmx.net
-gmx.net											secure match=.gmx.net
+gmx.net											dane-only
 gmx.org											secure match=.gmx.net
 gmx.ph											secure match=.gmx.net
 gmx.pt											secure match=.gmx.net
@@ -27,38 +27,38 @@ gmx.tm											secure match=.gmx.net
 gmx.us											secure match=.gmx.net
 online.de										secure match=.kundenserver.de
 t-online.de										secure match=.t-online.de
-web.de											secure match=.web.de
+web.de											dane-only
 # other mail providers
 126.com											secure match=.126.com
-aol.asia										secure match=mx.aol.com:.mx.aol.com
-aol.at											secure match=mx.aol.com:.mx.aol.com
-aol.be											secure match=mx.aol.com:.mx.aol.com
-aol.ch											secure match=mx.aol.com:.mx.aol.com
-aol.cl											secure match=mx.aol.com:.mx.aol.com
-aol.co.nz										secure match=mx.aol.com:.mx.aol.com
-aol.co.uk										secure match=mx.aol.com:.mx.aol.com
-aol.com											secure match=mx.aol.com:.mx.aol.com
-aol.com.ar										secure match=mx.aol.com:.mx.aol.com
-aol.com.au										secure match=mx.aol.com:.mx.aol.com
-aol.com.br										secure match=mx.aol.com:.mx.aol.com
-aol.com.co										secure match=mx.aol.com:.mx.aol.com
-aol.com.mx										secure match=mx.aol.com:.mx.aol.com
-aol.com.tr										secure match=mx.aol.com:.mx.aol.com
-aol.com.ve										secure match=mx.aol.com:.mx.aol.com
-aol.cz											secure match=mx.aol.com:.mx.aol.com
-aol.de											secure match=mx.aol.com:.mx.aol.com
-aol.dk											secure match=mx.aol.com:.mx.aol.com
-aol.es											secure match=mx.aol.com:.mx.aol.com
-aol.fi											secure match=mx.aol.com:.mx.aol.com
-aol.fr											secure match=mx.aol.com:.mx.aol.com
-aol.in											secure match=mx.aol.com:.mx.aol.com
-aol.it											secure match=mx.aol.com:.mx.aol.com
-aol.jp											secure match=mx.aol.com:.mx.aol.com
-aol.nl											secure match=mx.aol.com:.mx.aol.com
-aol.pl											secure match=mx.aol.com:.mx.aol.com
-aol.se											secure match=mx.aol.com:.mx.aol.com
-aol.tw											secure match=mx.aol.com:.mx.aol.com
-arcor.de										encrypt
+aol.asia										secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.at											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.be											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.ch											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.cl											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.co.nz										secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.co.uk										secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.com											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.com.ar										secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.com.au										secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.com.br										secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.com.co										secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.com.mx										secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.com.tr										secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.com.ve										secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.cz											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.de											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.dk											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.es											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.fi											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.fr											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.in											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.it											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.jp											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.nl											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.pl											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.se											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+aol.tw											secure match=mx.aol.com:.mx.aol.com:.yahoodns.net:.mail.yahoo.com
+arcor.de										secure match=.arcor.de:.oxcloud-vadesecure.net
 gmail.com										secure match=.google.com
 googlegroups.com								secure match=.google.com
 googlemail.com									secure match=.google.com
@@ -151,8 +151,9 @@ outlook.it										secure match=.hotmail.com:.outlook.com
 outlook.my										secure match=.hotmail.com:.outlook.com
 outlook.ph										secure match=.hotmail.com:.outlook.com
 outlook.sg										secure match=.hotmail.com:.outlook.com
+unitymedia.de									dane-only
 windowslive.com									secure match=.hotmail.com:.outlook.com
-vodafone.de										secure match=.vodafone.de
+vodafone.de										secure match=.vodafone.de:.oxcloud-vadesecure.net
 yahoo.at										secure match=.yahoodns.net
 yahoo.be										secure match=.yahoodns.net
 yahoo.ca										secure match=.yahoodns.net
@@ -196,17 +197,17 @@ ymail.com										secure match=.yahoodns.net
 yandex.ru										secure match=mx.yandex.net:mx.yandex.ru
 # universities
 informatik.hu-berlin.de							secure match=.hu-berlin.de
-hu-berlin.de									dane
+hu-berlin.de									secure match=.hu-berlin.de
 ostfalia.de										secure match=.sonia.de
-fh-hannover.de									secure match=.fh-hannover.de
-hs-hannover.de									secure match=.fh-hannover.de
-#uos.de											secure match=.uni-osnabrueck.de
-#uni-osnabrueck.de								secure match=.uni-osnabrueck.de
+fh-hannover.de									secure match=.fh-hannover.de:.hs-hannover.de
+hs-hannover.de									secure match=.fh-hannover.de:.hs-hannover.de
+uos.de											encrypt
+uni-osnabrueck.de								encrypt
 .tu-clausthal.de								secure match=.mx.srv.dfn.de:.tu-clausthal.de
 # states of germany
 .bayern.de										dane-only
 .berlin.de										encrypt
-.hessen.de										encrypt
+.hessen.de										secure match=.hessen.de
 .niedersachsen.de								secure match=.niedersachsen.de
 # banks
 commerzbank.com									secure match=.commerzbank.com
@@ -214,7 +215,7 @@ postbank.de										secure match=.postbank.de
 paypal.de										secure match=.paypalcorp.com
 paypal.com										secure match=.paypalcorp.com
 # insurances
-.aok.de											encrypt
+.aok.de											secure match=.aok.de
 barmer-gek.de									secure match=.t-systems.com
 tk.de											secure match=.tk.de
 # others
@@ -236,9 +237,9 @@ bmas.bund.de									dane-only
 bmfsfj.bund.de									dane-only
 bafza.bund.de									dane-only
 bsi.bund.de										dane-only
-ti.bund.de										dane
+ti.bund.de										secure match=.mx.srv.dfn.de:.bund.de
 wsv.bund.de										secure match=.bvbs-wan.de:.dwd.de
-barch.bund.de									encrypt
+barch.bund.de									dane-only
 bstu.bund.de									dane-only
 bund.de											dane-only
 bundestag.de									secure match=.dbtg.de
@@ -246,6 +247,6 @@ bundeswehr.org									secure match=.bwehr.de
 .debian.org										dane-only
 .torproject.org									dane-only
 heise.de										secure match=.heise.de
-reply.github.com								secure match=.github.net
+reply.github.com								secure match=.github.com
 github.com										secure match=.google.com
 gitlab.com										secure match=.google.com
